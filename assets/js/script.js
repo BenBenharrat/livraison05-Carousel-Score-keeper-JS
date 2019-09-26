@@ -4,7 +4,6 @@ let li = document.querySelectorAll('li');
 function nextPicture() {
 
 }
-
 function checkActiveClass() {
 
 }
