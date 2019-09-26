@@ -48,10 +48,10 @@ table {
 	border-spacing: 0;
 }
 
-ul > li {
-    display: none;
-}
-
 .active {
     display: block;
+}
+
+ul > li {
+    display: none;
 }
