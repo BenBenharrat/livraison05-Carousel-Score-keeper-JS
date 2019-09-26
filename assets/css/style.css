@@ -51,3 +51,7 @@ table {
 ul > li {
     display: none;
 }
+
+.active {
+    display: block;
+}
