@@ -11,13 +11,13 @@ function removeActiveClass() {
     li[getCurrentLiIndex()].classList.remove('active')
 }
 function addActiveClass() {
-    li[getCurrentLiIndex()].classList.add('active')
+    li[getNextLiIndex()].classList.add('active')
 }
 function getCurrentLiIndex() {
-    return currentIndex
+    let arr = Array.from(li);
+    return arr.findIndex(item => item.className == 'active');
 }
 function getNextLiIndex() {
     if(getCurrentLiIndex() == li.length - 1 ) return 0;
     return getCurrentLiIndex() + 1;
 }
-
