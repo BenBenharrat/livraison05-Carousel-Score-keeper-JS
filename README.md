@@ -3,7 +3,7 @@
 This is a project initially done for YesWeWeb and is just an exercice.
 
 
-## Projects Goals
+## Project Goals
 
 The goals of this project are as follows :
 
