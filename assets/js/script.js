@@ -13,4 +13,10 @@ function removeActiveClass() {
 function addActiveClass() {
 
 }
+function getCurrentLiIndex() {
+
+}
+function getNextLiIndex() {
+
+}
 
