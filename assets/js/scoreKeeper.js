@@ -30,29 +30,35 @@ function setScoreMax() {
 // === PLAYER 1 ===
 
 function insertScoreInSpanP1() {
-
+    scorePlayer1.append(document.createTextNode(scoreP1)) ;
 }
 
 function modifyScoreInSpanP1() {
-
+    scorePlayer1.innerText = scoreP1 ;
 }
 
 function incrementScore1() {
-
+    if (scoreP1 < scoreMax && scoreP2 < scoreMax) {
+        scoreP1++ ;
+        scorePlayer1.innerText = scoreP1
+    }
 }
 
 // === PLAYER 2 ===
 
 function insertScoreInSpanP2() {
-
+    scorePlayer2.append(document.createTextNode(scoreP2)) ;
 }
 
 function modifyScoreInSpanP2() {
-
+    scorePlayer2.innerText = scoreP2 ;
 }
 
 function incrementScore2() {
-    
+    if (scoreP2 < scoreMax && scoreP1 < scoreMax) {
+        scoreP2++ ;
+        scorePlayer2.innerText = scoreP2 ;
+    }
 }
 
 // === WINNER SCORE ===
