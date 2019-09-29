@@ -36,5 +36,11 @@ In the CSS we declare a `display: none` to hide all the `li` with `img` inside a
 First, we need to implement the 'Next picture' feature. To do that we need to first *target* all the `li` present in the `ul` so that we know all the available elements to switch to. Then we need to check if the element is either hidden or diplayed. Since we've already hidden every `li` in the `ul`, all we need to *check* is which element is displayed, *remove* it and *display* the element next to it (or the first one if there is no next element). 
 
 ### Score Keeper
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, ratione consectetur magni ipsam repellendus repudiandae ipsa, dolor quae voluptates ducimus nam recusandae fugiat atque vero optio voluptatum ea numquam perferendis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, aspernatur cupiditate, alias eveniet maiores mollitia et blanditiis nam assumenda odio dolor minus inventore repellendus excepturi? Aperiam id et incidunt quo!
 
+## Phase 2 : Programming
 
+### Carousel 
+
+### Score Keeper
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, ratione consectetur magni ipsam repellendus repudiandae ipsa, dolor quae voluptates ducimus nam recusandae fugiat atque vero optio voluptatum ea numquam perferendis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, aspernatur cupiditate, alias eveniet maiores mollitia et blanditiis nam assumenda odio dolor minus inventore repellendus excepturi? Aperiam id et incidunt quo!
