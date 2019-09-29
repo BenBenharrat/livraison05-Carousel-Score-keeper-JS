@@ -15,11 +15,6 @@ let scoreMax = 5 ;
 
 // === INITIAL ==================================
 
-function scoreKeeper() {
-    insertScoreInSpanMax() ;
-    insertScoreInSpanP1() ;
-    insertScoreInSpanP2() ;
-}
 
 function setScoreMax() {
     scoreMax = +input.value ;
@@ -84,7 +79,6 @@ function resetScores() {
     modifyScoreInSpanP2() ;
 }
 
-window.addEventListener('load', scoreKeeper) ;
 player1Button.addEventListener('click', incrementScore1) ;
 player2Button.addEventListener('click', incrementScore2) ;
 input.addEventListener('change', setScoreMax) ;
