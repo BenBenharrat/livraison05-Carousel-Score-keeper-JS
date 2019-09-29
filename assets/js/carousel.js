@@ -19,7 +19,7 @@ function addActiveClass() {
 
 function getNextLiIndex() {
     if (currentLiIndex >= li.length ) {
-        currentLiIndex =0;
+        currentLiIndex = 0;
     }
 }
 
