@@ -13,3 +13,61 @@ let scoreP1 = 0;
 let scoreP2 = 0; 
 let scoreMax = 5;
 
+// === INITIAL ===
+
+function scoreKeeper() {
+
+}
+
+function setScoreMax() {
+
+}
+
+
+// === PLAYER 1 ===
+
+function insertScoreInSpanP1() {
+
+}
+
+function modifyScoreInSpanP1() {
+
+}
+
+function incrementScore1() {
+
+}
+
+// === PLAYER 2 ===
+
+function insertScoreInSpanP2() {
+
+}
+
+function modifyScoreInSpanP2() {
+
+}
+
+function incrementScore2() {
+    
+}
+
+// === WINNER SCORE ===
+
+function insertScoreInSpanMax() {
+
+}
+
+function modifyWinnerScore() {
+
+}
+
+function setWinnerScore() {
+
+}
+
+// === RESET ===
+
+function resetScores() {
+    
+}
