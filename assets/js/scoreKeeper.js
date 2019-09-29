@@ -16,11 +16,14 @@ let scoreMax = 5;
 // === INITIAL ===
 
 function scoreKeeper() {
-
+    insertScoreInSpanMax();
+    insertScoreInSpanP1();
+    insertScoreInSpanP2();
 }
 
 function setScoreMax() {
-
+    scoreMax = +input.value ;
+    winnerScore.innerText = +input.value ;
 }
 
 
@@ -69,5 +72,5 @@ function setWinnerScore() {
 // === RESET ===
 
 function resetScores() {
-    
+
 }
