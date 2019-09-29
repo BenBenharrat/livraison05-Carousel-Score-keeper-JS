@@ -9,3 +9,7 @@ const player1Button = document.querySelectorAll('button')[0];
 const player2Button = document.querySelectorAll('button')[1];
 const reset = document.querySelectorAll('button')[2];
 
+let scoreP1 = 0;
+let scoreP2 = 0; 
+let scoreMax = 5;
+
