@@ -83,3 +83,9 @@ function resetScores() {
     modifyScoreInSpanP1() ;
     modifyScoreInSpanP2() ;
 }
+
+window.addEventListener('load', scoreKeeper) ;
+player1Button.addEventListener('click', incrementScore1) ;
+player2Button.addEventListener('click', incrementScore2) ;
+input.addEventListener('change', setScoreMax) ;
+reset.addEventListener('click', resetScores) ;
