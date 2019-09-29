@@ -1,5 +1,5 @@
-let button = document.querySelector('button');
-let li = document.querySelectorAll('li');
+const button = document.querySelector('button');
+const li = document.querySelectorAll('li');
 let currentLiIndex = 0;
 
 function nextPicture() {
