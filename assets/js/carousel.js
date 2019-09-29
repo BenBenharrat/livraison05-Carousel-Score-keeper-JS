@@ -23,7 +23,7 @@ function getNextLiIndex() {
     }
 }
 
-document.addEventListener('click', nextPicture);
+button.addEventListener('click', nextPicture);
 
 
 
